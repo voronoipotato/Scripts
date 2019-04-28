@@ -11,6 +11,6 @@ C:\ProgramFiles (x86)\Microsoft Visual Studio\2019\Preview\Common7\IDE\CommonExt
 Now add your current folder (this scripts directory) to the path and fsx to your pathext. This allows you to execute fsx as programs and have these scripts available to you as commands. You may need to be administrator to do this. 
 
 ``` powershell
-# $env:path += ";." # current working directory
+# $env:path += ";." # current working directory of scripts
 $env:PATHEXT += ";.fsx" 
 ```
